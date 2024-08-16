@@ -1,0 +1,84 @@
+.container {
+  border: 1px solid #333333;
+  /* Dark gray border */
+  width: 360px;
+  border-radius: 4px;
+  margin: auto;
+  background-color: #ffffff;
+  /* White background */
+  font-family: 'Arial', sans-serif;
+  /* Sans-serif font */
+}
+
+.fieldContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+  /* Reduced bottom margin to decrease space between fields and buttons */
+}
+
+label {
+  margin-bottom: 2px;
+  /* Reduced margin to bring label closer to input */
+  color: #000000;
+  /* Black text for labels */
+}
+
+.containerItem {
+  padding: 12px;
+}
+
+.input {
+  height: 34px;
+  border: 1px solid #cccccc;
+  /* Light gray border */
+  border-radius: 4px;
+  /* Rounded corners */
+  padding: 4px;
+  /* Padding within input field */
+  box-sizing: border-box;
+  /* Include border and padding in width */
+  font-family: 'Arial', sans-serif;
+  /* Consistent font */
+  margin-bottom: 4px;
+  /* Added margin to create space between input and button */
+}
+
+.button {
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  background-color: #cccccc;
+  /* Light gray background */
+  border: 2px solid #999999;
+  /* Darker gray border */
+  color: #000000;
+  /* Black text */
+  padding: 10px 20px;
+  /* Padding for button size */
+  border-radius: 5px;
+  /* Rounded corners */
+  font-family: 'Arial', sans-serif;
+  /* Consistent font */
+  margin-bottom: 0;
+  /* Ensure no additional margin is added below the button */
+}
+
+.button:hover {
+  background-color: #999999;
+  /* Darker gray on hover */
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+  /* Reduced bottom margin to decrease space between container and surrounding elements */
+}
+
+.errorMessage {
+  height: 1.2em;
+  color: #ff0000;
+  /* Red text for error messages */
+  font-size: 12px;
+  /* Font size for error messages */
+}

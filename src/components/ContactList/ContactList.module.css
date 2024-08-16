@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  font-family: 'Arial', sans-serif;
+  /* Шрифт сан-серіф */
+}
+
+.text {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+  /* Чорний текст */
+}

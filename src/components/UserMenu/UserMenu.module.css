@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.LogoutBtn {
+  color: #000000;
+  text-decoration: none;
+  padding: 0 15px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s, color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 38px;
+  font-family: 'Arial', sans-serif;
+}
+
+.LogoutBtn:hover {
+  background-color: #444444;
+}
+
+.text {
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+}

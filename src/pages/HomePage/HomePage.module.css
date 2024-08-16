@@ -1,0 +1,40 @@
+.homePage {
+  text-align: center;
+  padding: 20px 20px;
+  background-color: #e0e0e0;
+  /* Світло-сірий фон */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  /* Шрифт сан-серіф */
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #000000;
+  /* Чорний текст */
+}
+
+.introText {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  color: #000000;
+  /* Темно-сірий текст */
+}
+
+.imageContainer {
+  margin-top: 20px;
+}
+
+.welcomeImage {
+  max-width: 100%;
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Сильніша тінь */
+}

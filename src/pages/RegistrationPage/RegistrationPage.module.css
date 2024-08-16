@@ -1,0 +1,15 @@
+.registrationPage {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  font-family: 'Arial', sans-serif;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+  /* Чорний текст */
+}

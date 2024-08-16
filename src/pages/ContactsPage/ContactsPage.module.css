@@ -1,0 +1,17 @@
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+  /* Чорний текст */
+  font-family: 'Arial', sans-serif;
+  /* Шрифт сан-серіф */
+}
+
+.header {
+  text-align: center;
+  color: #000000;
+  /* Чорний текст */
+  font-family: 'Arial', sans-serif;
+  /* Шрифт сан-серіф */
+}

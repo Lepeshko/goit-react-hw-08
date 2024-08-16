@@ -1,0 +1,29 @@
+.authNav {
+  display: flex;
+  justify-content: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.link {
+  color: #000000;
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s, color 0.3s;
+  display: inline-block;
+  text-align: center;
+  width: 120px;
+  /* Set a fixed width for all buttons */
+}
+
+.link:hover {
+  background-color: #cccccc;
+  color: #000000;
+}
+
+.active {
+  background-color: #333333;
+  color: #ffffff;
+}

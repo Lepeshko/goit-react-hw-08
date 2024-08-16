@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-family: 'Arial', sans-serif;
+    width: 100vw;
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}

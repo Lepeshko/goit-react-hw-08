@@ -1,0 +1,52 @@
+.registerForm {
+  max-width: 300px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.registerLabel {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.registerInput {
+  width: 90%;
+  height: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.registerInput:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.registerButton {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.registerButton:hover {
+  background-color: #292929;
+}
+
+.registerButtonDisabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.registerError {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}

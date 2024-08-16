@@ -1,0 +1,78 @@
+/* Form styles */
+.loginForm {
+  max-width: 300px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  /* Білий фон */
+  border: 1px solid #333333;
+  /* Темно-сірий бордюр */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  /* Сильніша тінь */
+  font-family: 'Arial', sans-serif;
+  /* Шрифт сан-серіф */
+}
+
+.loginForm label {
+  display: block;
+  margin-bottom: 10px;
+  color: #000000;
+  /* Чорний текст */
+}
+
+.loginForm input[type="email"],
+.loginForm input[type="password"] {
+  width: 90%;
+  height: 24px;
+  /* Збільшено висоту для кращого вигляду */
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #666666;
+  /* Темно-сірий бордюр */
+  border-radius: 4px;
+  /* Округлені краї */
+  font-family: 'Arial', sans-serif;
+  /* Шрифт сан-серіф */
+}
+
+.loginForm input[type="email"]:focus,
+.loginForm input[type="password"]:focus {
+  border-color: #333333;
+  /* Темно-сірий бордюр при фокусі */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  /* Легша тінь при фокусі */
+}
+
+.loginForm button[type="submit"] {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  background-color: #000000;
+  /* Темно-сірий фон */
+  color: #ffffff;
+  /* Білий текст */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Arial', sans-serif;
+  /* Шрифт сан-серіф */
+}
+
+.loginForm button[type="submit"]:hover {
+  background-color: #444444;
+  /* Ще темніший сірий при наведенні */
+}
+
+.loginForm button[type="submit"]:disabled {
+  background-color: #aaaaaa;
+  /* Світло-сірий фон для неактивної кнопки */
+  cursor: not-allowed;
+}
+
+/* Error message styles */
+.error-message {
+  color: #ff0000;
+  /* Червоний текст для повідомлень про помилки */
+  font-size: 12px;
+  margin-top: 5px;
+}
