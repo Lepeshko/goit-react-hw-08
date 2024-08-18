@@ -17,7 +17,6 @@
     border-radius: 8px;
     border: 1px solid #dddddd;
     flex-shrink: 0;
-    /* Prevent shrinking of this section */
 }
 
 .listItem {
@@ -25,7 +24,7 @@
     align-items: center;
     gap: 8px;
     padding: 6px 0;
-    border-bottom: 1px solid #eeeeee;
+    border-bottom: 1px solid #cccccc;
 }
 
 .listItem:last-child {

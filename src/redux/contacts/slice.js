@@ -4,6 +4,7 @@ import {
   addContact,
   deleteContact,
   editContact,
+  logOut, // Імпортуйте logOut
 } from "./operations";
 
 const contactsSlice = createSlice({
@@ -69,6 +70,12 @@ const contactsSlice = createSlice({
       .addCase(editContact.rejected, (state, action) => {
         state.isLoading = false;
         state.error = action.payload;
+      })
+      .addCase(logOut.fulfilled, (state) => {
+        // Додаємо випадок для logOut.fulfilled
+        state.items = [];
+        state.error = null;
+        state.isLoading = false;
       });
   },
 });

@@ -51,3 +51,14 @@ export const editContact = createAsyncThunk(
     }
   }
 );
+
+// Додаємо логіку для logOut
+export const logOut = createAsyncThunk("auth/logOut", async (_, thunkAPI) => {
+  try {
+    await axios.post("/users/logout");
+    // Успішний logout, нічого не повертаємо, бо будемо очищати стан в slice
+    return;
+  } catch (error) {
+    return thunkAPI.rejectWithValue(error.message);
+  }
+});
